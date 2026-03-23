@@ -1,0 +1,11 @@
+/* Subtle heading refinements */
+.post-content h1,
+.post-content h2 {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.3em;
+}
+
+/* Improve code block appearance */
+.post-content pre {
+    border-radius: 6px;
+}

@@ -1,0 +1,127 @@
+baseURL = "https://franck.verrot.us"
+languageCode = "en-us"
+title = "Franck Verrot"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+# ---------------------------------------------------------------------------
+# Front matter: date extraction from filename + front matter
+# ---------------------------------------------------------------------------
+[frontmatter]
+  date = [":filename", "date", "publishdate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime"]
+
+# ---------------------------------------------------------------------------
+# Permalinks: replicate Jekyll's /blog/:year/:month/:day/:title
+# ---------------------------------------------------------------------------
+[permalinks]
+  [permalinks.page]
+    posts = '/blog/:year/:month/:day/:slug'
+
+# ---------------------------------------------------------------------------
+# RSS feed at /feed.xml (not /index.xml)
+# ---------------------------------------------------------------------------
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+# ---------------------------------------------------------------------------
+# Markdown rendering
+# ---------------------------------------------------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "dracula"
+    noClasses = false
+    lineNos = false
+
+# ---------------------------------------------------------------------------
+# Disqus comments
+# ---------------------------------------------------------------------------
+[services]
+  [services.disqus]
+    shortname = "cesariosblog"
+
+# ---------------------------------------------------------------------------
+# Menu
+# ---------------------------------------------------------------------------
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 4
+
+[[menu.main]]
+  name = "Archives"
+  url = "/archives/"
+  weight = 5
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 6
+
+# ---------------------------------------------------------------------------
+# PaperMod theme parameters
+# ---------------------------------------------------------------------------
+[params]
+  env = "production"
+  description = "Engineering Leader, Software Architect, AI/LLM Builder, Open Source Contributor"
+  author = "Franck Verrot"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  comments = true
+  disableScrollToTop = false
+
+  [params.homeInfoParams]
+    Title = "Franck Verrot"
+    Content = "VP of Engineering at [Omada Health](https://www.omadahealth.com). Advisor at [Berkeley SkyDeck](https://skydeck.berkeley.edu)."
+    Extended = "I write about engineering leadership, distributed systems, AI/ML adoption, Ruby, Go, PostgreSQL, and open source. I've spent the last decade building and scaling engineering organizations in digital health."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/franckverrot"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/franckverrot"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/franckverrot"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/feed.xml"

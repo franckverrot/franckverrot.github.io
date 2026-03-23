@@ -7,6 +7,8 @@ tags:
   - ai
 ---
 
+*Originally posted as a [thread on X](https://x.com/franckverrot/status/2033289557333172621).*
+
 I'm building an agentic harness modeled on Elm's architecture: a strict functional pipeline where untrusted agent code runs in total isolation. Containers felt like the natural security boundary. Apple's open-source container tool seemed like the ideal foundation. Building and running containers is dead simple (`container build . -t my-image`, `container run -it my-image`), but I still spent a chunk of my weekend (re-)discovering what breaks when you try to get graphical output across a real VM boundary on macOS.
 
 <!--more-->

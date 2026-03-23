@@ -7,6 +7,8 @@ tags:
   - engineering-leadership
 ---
 
+*Originally posted as a [thread on X](https://x.com/franckverrot/status/2035781987630539064).*
+
 I was reading that 8090 just landed a partnership with EY last week, and this got me interested in test-driving it. Most of the coverage out there focuses on enterprise usage, I wanted to know if it could help me on an open source project (no budget, PMs, just me/Claude/my repos.) And if this is good for thousands of consultants, maybe it could also be good for the day job.
 
 I'll start by saying that I liked the pitch: the bottleneck in (a lot of, not all obviously) software is deciding what to build, not writing the code. 8090 wants to be the single source of truth that connects product decisions to engineering execution: a gap that's more or less narrow in various companies, and that doesn't exist in side projects (where I'm the CEO/CFO/engineer/QA/product marketing person all at once.)

@@ -7,6 +7,8 @@ tags:
   - programming-languages
 ---
 
+*Originally posted as a [thread on X](https://x.com/franckverrot/status/2034552496652538359).*
+
 I've been building AI agents for a while now and I'm a bit puzzled about where the industry is going.
 
 We're writing the most autonomous software we've ever built, but the tools we use to build them are a mess. Python script calling APIs, state scattered everywhere, YAML configs, framework-of-the-week. It works until it doesn't, and then you're debugging at 2am because some MCP gateway is stuck as some tool or API changed shape and nothing caught it.

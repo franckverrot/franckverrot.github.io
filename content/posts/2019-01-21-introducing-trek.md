@@ -1,7 +1,6 @@
 ---
 title: "Introducing Trek"
 date: 2019-01-21 21:02:12
-comments: true
 slug: "introducing-trek"
 tags:
   - go

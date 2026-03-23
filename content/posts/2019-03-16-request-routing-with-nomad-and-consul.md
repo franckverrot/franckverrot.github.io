@@ -1,7 +1,6 @@
 ---
 title: "Request Routing with Nomad and Consul"
 date: 2019-03-16 11:20:16
-comments: true
 slug: "request-routing-with-nomad-and-consul"
 tags:
   - go

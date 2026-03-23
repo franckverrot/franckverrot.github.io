@@ -1,7 +1,6 @@
 ---
 title: Talk to Gemcutter's API using XMPP/Google Talk
 date: 2010-02-20
-comments: true
 slug: "talk-to-gemcutters-api-using-xmppgoogle-talk"
 tags:
   - ruby

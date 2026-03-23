@@ -1,6 +1,5 @@
 ---
 title: Find out where a Rake task is defined
-comments: true
 date: 2011-02-20
 slug: "find-out-where-a-rake-task-is-defined"
 tags:

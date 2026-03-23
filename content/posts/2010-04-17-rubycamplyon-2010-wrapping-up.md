@@ -1,7 +1,6 @@
 ---
 title: RubyCampLyon 2010 wrapping up
 date: 2010-04-17
-comments: true
 slug: "rubycamplyon-2010-wrapping-up"
 tags:
   - community

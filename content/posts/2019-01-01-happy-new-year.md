@@ -1,7 +1,6 @@
 ---
 title: "Happy New Year!"
 date: 2019-01-01 16:22:45
-comments: true
 categories:
   - random
 slug: "happy-new-year"

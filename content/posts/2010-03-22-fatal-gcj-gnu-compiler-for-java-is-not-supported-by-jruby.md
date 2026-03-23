@@ -1,7 +1,6 @@
 ---
 title: Fatal GCJ GNU Compiler for Java is not supported by JRuby
 date: 2010-03-22
-comments: true
 slug: "fatal-gcj-gnu-compiler-for-java-is-not-supported-by-jruby"
 tags:
   - ruby

@@ -44,12 +44,6 @@ enableRobotsTXT = true
     noClasses = false
     lineNos = false
 
-# ---------------------------------------------------------------------------
-# Disqus comments
-# ---------------------------------------------------------------------------
-[services]
-  [services.disqus]
-    shortname = "cesariosblog"
 
 # ---------------------------------------------------------------------------
 # Menu
@@ -102,7 +96,7 @@ enableRobotsTXT = true
   ShowWordCount = false
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
-  comments = true
+  comments = false
   disableScrollToTop = false
 
   [params.homeInfoParams]

@@ -1,7 +1,6 @@
 ---
 title: Introducing Live-Note appspot com
 date: 2010-03-04
-comments: true
 slug: "introducing-live-note-appspot-com"
 tags:
   - meta

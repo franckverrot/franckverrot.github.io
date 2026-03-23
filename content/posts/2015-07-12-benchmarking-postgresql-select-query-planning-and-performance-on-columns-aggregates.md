@@ -1,7 +1,6 @@
 ---
 title: "Benchmarking PostgreSQL's SELECT Query Planning and Performance on Columns Aggregates"
 date: 2015-07-12 22:50:00
-comments: true
 categories:
   - postgresql
   - sql

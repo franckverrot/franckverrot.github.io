@@ -1,6 +1,5 @@
 ---
 title: Rails 3 Let ActiveRecord Manage Your Translations
-comments: true
 date: 2010-02-27
 slug: "rails-3-let-activerecord-manage-your-translations"
 tags:

@@ -1,7 +1,6 @@
 ---
 title: ActiveValidators 1.9.0
 date: 2012-04-07
-comments: true
 slug: "activevalidators-190"
 tags:
   - ruby

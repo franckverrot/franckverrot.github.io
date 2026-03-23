@@ -1,7 +1,6 @@
 ---
 title: "Introducing Terraform Stripe Provider"
 date: 2019-02-25 18:32:33
-comments: true
 slug: "introducing-terraform-stripe-provider"
 tags:
   - go

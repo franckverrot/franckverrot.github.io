@@ -1,7 +1,6 @@
 ---
 title: "What is the best way to pass NSManagedObjectContext around in iOS applications?"
 date: 2012-01-18 00:09:00
-comments: true
 slug: "best-way-to-pass-nsmanagedobjectcontext-around-in-ios-applications"
 tags:
   - ios

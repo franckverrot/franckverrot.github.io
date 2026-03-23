@@ -1,7 +1,6 @@
 ---
 title: "Method definitions in Ruby 2.1.0 will not be void anymore"
 date: 2013-08-21 08:00:00
-comments: true
 slug: "method-definitions-in-ruby-2-1-0-will-not-be-void-anymore"
 tags:
   - ruby

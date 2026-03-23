@@ -1,7 +1,6 @@
 ---
 title: ActiveValidators 1.3.0
 date: 2011-03-20
-comments: true
 slug: "activevalidators-130"
 tags:
   - ruby

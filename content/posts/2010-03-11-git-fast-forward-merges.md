@@ -1,7 +1,6 @@
 ---
 title: Git Fast Forward Merges
 date: 2010-03-11
-comments: true
 slug: "git-fast-forward-merges"
 tags:
   - git

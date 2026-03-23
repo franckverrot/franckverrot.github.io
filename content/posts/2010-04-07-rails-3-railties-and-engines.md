@@ -1,7 +1,6 @@
 ---
 title: Rails 3, Railties and Engines
 date: 2010-04-07
-comments: true
 slug: "rails-3-railties-and-engines"
 tags:
   - ruby

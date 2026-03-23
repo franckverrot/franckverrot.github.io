@@ -1,7 +1,6 @@
 ---
 title: LyonRb Bilan apero Ruby du 2 decembre 2010
 date: 2010-12-03
-comments: true
 slug: "lyonrb-bilan-apero-ruby-du-2-decembre-2010"
 tags:
   - community

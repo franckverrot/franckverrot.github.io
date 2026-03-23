@@ -1,7 +1,6 @@
 ---
 title: No Querying Views
 date: 2010-11-28
-comments: true
 slug: "no-querying-views"
 tags:
   - ruby

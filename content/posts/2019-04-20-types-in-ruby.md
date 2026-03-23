@@ -1,7 +1,6 @@
 ---
 title: "Types in Ruby"
 date: 2019-04-20 10:24:04
-comments: true
 slug: "types-in-ruby"
 tags:
   - ruby

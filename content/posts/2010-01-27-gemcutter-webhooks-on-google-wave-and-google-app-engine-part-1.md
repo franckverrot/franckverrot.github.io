@@ -1,7 +1,6 @@
 ---
 title: Gemcutter Webhooks on Google Wave (and Google App Engine) part 1
 date: 2010-01-27
-comments: true
 slug: "gemcutter-webhooks-on-google-wave-and-google-app-engine-part-1"
 tags:
   - ruby

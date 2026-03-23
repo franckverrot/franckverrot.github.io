@@ -1,7 +1,6 @@
 ---
 title: Executing binary files with Ruby on Rails and Heroku
 date: 2010-02-24
-comments: true
 slug: "executing-binary-files-with-ruby-on-rails-and-heroku"
 tags:
   - ruby

@@ -1,7 +1,6 @@
 ---
 title: "Pitch, Business Model, People: my wrap up of the 3rd Startup Weekend Lyon"
 date: 2012-04-21
-comments: true
 slug: "pitch--business-model--people--my-wrap-up-of-the-3rd-startup-weekend-lyon"
 tags:
   - community

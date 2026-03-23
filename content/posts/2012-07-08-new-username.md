@@ -1,7 +1,6 @@
 ---
 title: "New username"
 date: 2012-07-08 22:37:00
-comments: true
 slug: "new-username"
 tags:
   - meta

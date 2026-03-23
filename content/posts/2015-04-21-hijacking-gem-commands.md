@@ -1,7 +1,6 @@
 ---
 title: "Hijacking gem commands"
 date: 2015-04-21 08:00:00
-comments: true
 slug: "hijacking-gem-commands"
 tags:
   - ruby

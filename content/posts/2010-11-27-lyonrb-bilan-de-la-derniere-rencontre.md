@@ -1,7 +1,6 @@
 ---
 title: LyonRb Bilan de la dernière rencontre
 date: 2010-11-27
-comments: true
 slug: "lyonrb-bilan-de-la-derniere-rencontre"
 tags:
   - community

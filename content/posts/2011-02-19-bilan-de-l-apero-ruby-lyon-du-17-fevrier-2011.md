@@ -1,7 +1,6 @@
 ---
 title: LyonRb Bilan de l'apéro Ruby Lyon du 19 février 2011
 date: 2011-02-19
-comments: true
 slug: "bilan-de-l-apero-ruby-lyon-du-17-fevrier-2011"
 tags:
   - community

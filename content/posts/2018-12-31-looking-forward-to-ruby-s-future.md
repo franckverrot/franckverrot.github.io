@@ -1,7 +1,6 @@
 ---
 title: "Looking forward to Ruby's future"
 date: 2018-12-31 22:45:00
-comments: true
 categories:
   - ruby
 slug: "looking-forward-to-ruby-s-future"

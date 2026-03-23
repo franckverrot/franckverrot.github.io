@@ -1,7 +1,6 @@
 ---
 title: "Running Graphical Apps in Apple's Container Tool"
 date: 2026-03-15 14:09:00
-comments: true
 slug: "running-graphical-apps-in-apples-container-tool"
 tags:
   - infrastructure

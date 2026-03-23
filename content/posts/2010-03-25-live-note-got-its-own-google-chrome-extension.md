@@ -1,7 +1,6 @@
 ---
 title: Live-Note got its own Google Chrome Extension
 date: 2010-03-25
-comments: true
 slug: "live-note-got-its-own-google-chrome-extension"
 tags:
   - meta

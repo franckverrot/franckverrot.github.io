@@ -186,6 +186,10 @@ R6 had higher recall (97.2%) from aggressive oversampling of targeted patterns. 
 
 The remaining 4 failures (out of 30) all have 100% precision, the classifier just misses one head in complex multi-field queries.  The `exclude_majors` head and `state` head are the weakest at co-activating alongside other filters.
 
+**EDIT: my friend Mark reached out on LinkedIn and pointed out something I should have seen earlier.  He said the co-activation problem (heads not firing together) was probably a training data issue: if heads mostly appear in isolation during training, the model learns to fire them independently.  He suggested generating combinatorial examples that hit 4-5 heads at once.**
+
+**He was completely right.  R7 had 4 remaining failures where the model wouldn't fire multiple heads simultaneously -- "d3 lacrosse in massachusetts" got lacrosse and D3 but missed the state.  I generated 119 examples that force 3-5 heads to fire at once, written in both shorthand ("D1 soccer + bio + California + under 40k") and conversational style ("I want to play D1 soccer, study biology, preferably in California, and not break the bank".)  R8: 0 failures.  100% precision, 100% recall.  Thanks Mark.**
+
 ### The mobile integration
 
 The classifier runs on-device via [CoreML](https://developer.apple.com/documentation/coreml).  The iOS app has an A/B toggle (`@AppStorage("aiSearchEngine")`) to switch between the classifier and the original MLX LLM.  The classifier path:

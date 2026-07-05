@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <!-- card background -->
+  <rect x="1" y="1" width="918" height="498" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- free zone -->
+  <rect x="40" y="40" width="840" height="380" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="65" y="78" font-size="17" font-weight="700" fill="#64748b">Free zone</text>
+  <text x="65" y="100" font-size="13.5" font-style="italic" fill="#94a3b8">the agent's latitude: divergence here is not drift, nobody adjudicates it</text>
+
+  <!-- free chips -->
+  <g font-size="13.5" fill="#64748b">
+    <rect x="530" y="140" width="120" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="590" y="162" text-anchor="middle">file layout</text>
+    <rect x="680" y="140" width="160" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="760" y="162" text-anchor="middle">internal helpers</text>
+    <rect x="560" y="200" width="140" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="630" y="222" text-anchor="middle">variable naming</text>
+    <rect x="730" y="200" width="110" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="785" y="222" text-anchor="middle">log format</text>
+    <rect x="600" y="260" width="150" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="675" y="282" text-anchor="middle">retry internals</text>
+  </g>
+
+  <!-- pinned surface -->
+  <rect x="65" y="130" width="400" height="260" rx="12" fill="#eef2ff" stroke="#4f46e5" stroke-width="2.5"/>
+  <text x="90" y="166" font-size="17" font-weight="700" fill="#3730a3">Pinned surface</text>
+  <text x="90" y="188" font-size="13.5" font-style="italic" fill="#6366f1">drift is only defined here</text>
+
+  <!-- pinned chips with eval badges -->
+  <g>
+    <rect x="90" y="210" width="195" height="36" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="102" y="233" font-size="13.5" fill="#334155">clinical eligibility</text>
+    <rect x="229" y="217" width="46" height="22" rx="11" fill="#fffbeb" stroke="#b45309" stroke-width="1.2"/>
+    <text x="252" y="232" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">eval</text>
+
+    <rect x="300" y="210" width="150" height="36" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="312" y="233" font-size="13.5" fill="#334155">PHI handling</text>
+    <rect x="394" y="217" width="46" height="22" rx="11" fill="#fffbeb" stroke="#b45309" stroke-width="1.2"/>
+    <text x="417" y="232" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">eval</text>
+
+    <rect x="90" y="262" width="195" height="36" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="102" y="285" font-size="13.5" fill="#334155">API contracts</text>
+    <rect x="229" y="269" width="46" height="22" rx="11" fill="#fffbeb" stroke="#b45309" stroke-width="1.2"/>
+    <text x="252" y="284" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">eval</text>
+
+    <rect x="300" y="262" width="150" height="36" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="312" y="285" font-size="13.5" fill="#334155">audit trail</text>
+    <rect x="394" y="269" width="46" height="22" rx="11" fill="#fffbeb" stroke="#b45309" stroke-width="1.2"/>
+    <text x="417" y="284" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">eval</text>
+
+    <rect x="90" y="314" width="230" height="36" rx="8" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="102" y="337" font-size="13.5" fill="#334155">claims adjudication</text>
+    <rect x="264" y="321" width="46" height="22" rx="11" fill="#fffbeb" stroke="#b45309" stroke-width="1.2"/>
+    <text x="287" y="336" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">eval</text>
+  </g>
+
+  <!-- pinning arrow: free chip -> pinned -->
+  <path d="M 620 300 C 580 350 520 368 455 368" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <text x="640" y="345" font-size="13" font-weight="600" fill="#475569">gets pinned when it starts to matter</text>
+  <text x="640" y="365" font-size="12.5" font-style="italic" fill="#64748b">an incident, a decision, users depend on it</text>
+
+  <!-- caption -->
+  <text x="460" y="455" font-size="13.5" fill="#64748b" text-anchor="middle">The pinned surface is exactly the set of things someone wrote an eval for.  Products mature by growing it.</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <marker id="arrow-dash" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- card background -->
+  <rect x="1" y="1" width="918" height="598" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- human -->
+  <circle cx="460" cy="58" r="13" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <path d="M 438 96 Q 460 74 482 96" fill="none" stroke="#475569" stroke-width="2.5"/>
+  <text x="500" y="58" font-size="15" font-weight="600" fill="#334155">you</text>
+  <text x="500" y="78" font-size="13" fill="#64748b">adjudicate drift, edit the desired state</text>
+
+  <!-- human -> desired state (edit) -->
+  <path d="M 432 64 C 320 62 230 95 192 148" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-dash)"/>
+  <text x="215" y="44" font-size="12.5" font-style="italic" fill="#64748b">a new feature is an edit here</text>
+
+  <!-- human -> drift (adjudicate) -->
+  <path d="M 460 100 L 460 148" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-dash)"/>
+  <text x="472" y="130" font-size="12.5" font-style="italic" fill="#64748b">which side is truth?</text>
+
+  <!-- desired state box -->
+  <rect x="55" y="155" width="235" height="185" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="75" y="187" font-size="17" font-weight="700" fill="#3730a3">Desired state</text>
+  <text x="75" y="207" font-size="13" font-style="italic" fill="#6366f1">the pinned surface</text>
+  <text x="75" y="238" font-size="14" fill="#334155">• specs / ontology</text>
+  <text x="75" y="262" font-size="14" fill="#334155">• evals</text>
+  <text x="75" y="286" font-size="14" fill="#334155">• decisions, constraints</text>
+  <text x="75" y="310" font-size="14" fill="#334155">• architecture invariants</text>
+
+  <!-- observed state box -->
+  <rect x="630" y="155" width="235" height="185" rx="10" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <text x="650" y="187" font-size="17" font-weight="700" fill="#115e59">Observed state</text>
+  <text x="650" y="207" font-size="13" font-style="italic" fill="#0d9488">what the system actually is</text>
+  <text x="650" y="238" font-size="14" fill="#334155">• running system</text>
+  <text x="650" y="262" font-size="14" fill="#334155">• code</text>
+  <text x="650" y="286" font-size="14" fill="#334155">• test + eval results</text>
+  <text x="650" y="310" font-size="14" fill="#334155">• telemetry</text>
+
+  <!-- drift node -->
+  <rect x="382" y="200" width="156" height="95" rx="10" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+  <text x="460" y="240" font-size="18" font-weight="700" fill="#92400e" text-anchor="middle">Drift</text>
+  <text x="460" y="263" font-size="13" font-style="italic" fill="#b45309" text-anchor="middle">the diff between the two</text>
+
+  <!-- desired -> drift -->
+  <path d="M 290 247 L 376 247" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="333" y="236" font-size="12.5" font-style="italic" fill="#64748b" text-anchor="middle">what must hold</text>
+
+  <!-- observed -> drift -->
+  <path d="M 630 247 L 544 247" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="583" y="236" font-size="12" font-style="italic" fill="#64748b" text-anchor="middle">what holds today</text>
+
+  <!-- drift -> work queue -> agents -->
+  <path d="M 460 295 L 460 385" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="448" y="332" font-size="13" font-weight="600" fill="#475569" text-anchor="end">drift items are the work queue</text>
+  <text x="448" y="352" font-size="12.5" font-style="italic" fill="#64748b" text-anchor="end">features, bugs, doc rot: one queue</text>
+
+  <!-- agents box -->
+  <rect x="375" y="390" width="170" height="88" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+  <text x="460" y="428" font-size="17" font-weight="700" fill="#334155" text-anchor="middle">Agents</text>
+  <text x="460" y="450" font-size="13" font-style="italic" fill="#64748b" text-anchor="middle">the actuator, loops inside</text>
+
+  <!-- agents -> observed (changes) -->
+  <path d="M 548 434 C 680 434 747 400 747 348" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="705" y="428" font-size="12.5" font-style="italic" fill="#64748b">changes</text>
+
+  <!-- observed -> sensors note (bottom, feeding back) -->
+  <text x="460" y="540" font-size="13.5" fill="#64748b" text-anchor="middle">tests, evals, and telemetry are the sensors: they are how the observed state becomes readable at all.</text>
+  <text x="460" y="562" font-size="13.5" fill="#64748b" text-anchor="middle">If nothing can observe an intent, it is not pinned, whatever the document says.</text>
+</svg>

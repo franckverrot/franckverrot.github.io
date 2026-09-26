@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="cells-live" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0.5" y="0.5" width="3" height="3" rx="0.5" fill="#a5b4fc"/>
+    </pattern>
+    <pattern id="cells-pad" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0.5" y="0.5" width="3" height="3" rx="0.5" fill="#fcd34d"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="918" height="578" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="140" y="30" font-size="12.5" fill="#334155" font-weight="600">W, the out projection</text>
+  <text x="908" y="30" font-size="12" fill="#64748b" text-anchor="end">1,024 columns</text>
+  <rect x="140" y="40" width="768" height="96" fill="#e2e8f0"/>
+  <line x1="188" y1="40" x2="188" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="236" y1="40" x2="236" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="284" y1="40" x2="284" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="332" y1="40" x2="332" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="380" y1="40" x2="380" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="428" y1="40" x2="428" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="476" y1="40" x2="476" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="524" y1="40" x2="524" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="572" y1="40" x2="572" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="620" y1="40" x2="620" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="668" y1="40" x2="668" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="716" y1="40" x2="716" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="764" y1="40" x2="764" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="812" y1="40" x2="812" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <line x1="860" y1="40" x2="860" y2="136" stroke="#ffffff" stroke-width="1"/>
+  <rect x="140" y="40" width="768" height="96" rx="2" fill="none" stroke="#475569" stroke-width="1.25"/>
+  <text x="132" y="92" font-size="11" fill="#64748b" text-anchor="end">1,024 rows</text>
+  <path d="M 135 84 l 10 -6 M 135 92 l 10 -6" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <path d="M 135 84 l 10 -6 M 135 92 l 10 -6" stroke="#475569" stroke-width="1.25" fill="none"/>
+  <path d="M 903 84 l 10 -6 M 903 92 l 10 -6" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <path d="M 903 84 l 10 -6 M 903 92 l 10 -6" stroke="#475569" stroke-width="1.25" fill="none"/>
+  <text x="524.0" y="158" font-size="18" fill="#334155" text-anchor="middle">=</text>
+  <text x="30" y="158" font-size="12.5" fill="#334155" font-weight="600">A</text>
+  <rect x="30" y="168" width="96" height="12.75" fill="#c7d2fe"/>
+  <rect x="30" y="180.75" width="96" height="35.25" fill="#fde68a"/>
+  <rect x="30" y="168" width="96" height="48" rx="2" fill="none" stroke="#475569" stroke-width="1.25"/>
+  <path d="M 74 163 l 6 10 M 82 163 l 6 10" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <path d="M 74 163 l 6 10 M 82 163 l 6 10" stroke="#475569" stroke-width="1.25" fill="none"/>
+  <path d="M 74 211 l 6 10 M 82 211 l 6 10" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <path d="M 74 211 l 6 10 M 82 211 l 6 10" stroke="#475569" stroke-width="1.25" fill="none"/>
+  <text x="133" y="198.0" font-size="18" fill="#334155" text-anchor="middle">x</text>
+  <text x="140" y="158" font-size="12.5" fill="#334155" font-weight="600">C</text>
+  <rect x="140" y="168" width="768" height="12.75" fill="#c7d2fe"/>
+  <rect x="140" y="180.75" width="768" height="35.25" fill="#fde68a"/>
+  <line x1="188" y1="168" x2="188" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="236" y1="168" x2="236" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="284" y1="168" x2="284" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="332" y1="168" x2="332" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="380" y1="168" x2="380" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="428" y1="168" x2="428" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="476" y1="168" x2="476" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="524" y1="168" x2="524" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="572" y1="168" x2="572" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="620" y1="168" x2="620" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="668" y1="168" x2="668" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="716" y1="168" x2="716" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="764" y1="168" x2="764" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="812" y1="168" x2="812" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="860" y1="168" x2="860" y2="216" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="140" y="168" width="768" height="48" rx="2" fill="none" stroke="#475569" stroke-width="1.25"/>
+  <rect x="140" y="168" width="48" height="48" fill="none" stroke="#4f46e5" stroke-width="2"/>
+  <text x="908" y="234" font-size="11.5" fill="#64748b" text-anchor="end">16 tiles of 64 x 64</text>
+  <polygon points="140,216 188,216 396,270 140,270" fill="#eef2ff" fill-opacity="0.7"/>
+  <line x1="140" y1="216" x2="140" y2="270" stroke="#4f46e5" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="188" y1="216" x2="396" y2="270" stroke="#4f46e5" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="140" y="270" width="256" height="68" fill="url(#cells-live)"/>
+  <rect x="140" y="338" width="256" height="188" fill="url(#cells-pad)"/>
+  <line x1="140" y1="338" x2="396" y2="338" stroke="#4f46e5" stroke-width="1.25" stroke-dasharray="4 3"/>
+  <rect x="140" y="270" width="256" height="256" rx="3" fill="none" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="152" y="292" width="126" height="24" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#4f46e5" stroke-width="1"/>
+  <text x="215" y="309" font-size="12.5" fill="#3730a3" font-weight="600" text-anchor="middle">17 rows of tokens</text>
+  <rect x="152" y="416" width="166" height="24" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#b45309" stroke-width="1"/>
+  <text x="235" y="433" font-size="12.5" fill="#92400e" text-anchor="middle" font-style="italic">47 rows of padding to 64</text>
+  <text x="412" y="288" font-size="13" fill="#334155" font-weight="600">one tile</text>
+  <text x="412" y="306" font-size="12" fill="#64748b">64 x 64 numbers, one square each</text>
+  <text x="412" y="324" font-size="12" fill="#64748b">one threadgroup</text>
+</svg>

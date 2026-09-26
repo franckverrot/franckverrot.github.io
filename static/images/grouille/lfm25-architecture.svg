@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 910" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="918" height="908" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="400" y="34" font-size="12.5" fill="#64748b" text-anchor="middle">next-token probabilities</text>
+  <rect x="345.0" y="46" width="110" height="28" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="65.0" font-size="13" fill="#334155" text-anchor="middle">softmax</text>
+  <path d="M 400 90 L 400 76" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 340.0 140 L 460.0 140 L 560.0 90 L 240.0 90 z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="400" y="120.0" font-size="13.5" fill="#3730a3" text-anchor="middle">linear</text>
+  <text x="570.0" y="138" font-size="11.5" fill="#64748b">1024</text>
+  <text x="570.0" y="100" font-size="11.5" fill="#64748b">65,536</text>
+  <path d="M 400 182 L 400 142" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="345.0" y="154" width="110" height="28" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="173.0" font-size="13" fill="#334155" text-anchor="middle">norm</text>
+  <path d="M 400 212 L 400 184" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="150" y="200" width="510" height="532" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="118" y="470" font-size="17" fill="#334155" font-weight="700" text-anchor="middle">16 x</text>
+  <circle cx="400" cy="224" r="11" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="400" y="229" font-size="15" fill="#475569" text-anchor="middle">+</text>
+  <path d="M 400 246 L 400 237" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 250.0 300 L 550.0 300 L 460.0 246 L 340.0 246 z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="400" y="278.0" font-size="13.5" fill="#3730a3" text-anchor="middle">down</text>
+  <text x="560.0" y="298" font-size="11.5" fill="#64748b">4608</text>
+  <text x="560.0" y="256" font-size="11.5" fill="#64748b">1024</text>
+  <path d="M 400 314 L 400 302" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="300.0" y="314" width="200" height="28" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="333.0" font-size="13" fill="#334155" text-anchor="middle">silu(gate) x up</text>
+  <path d="M 400 356 L 400 344" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 340.0 410 L 460.0 410 L 550.0 356 L 250.0 356 z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="400" y="388.0" font-size="13.5" fill="#3730a3" text-anchor="middle">gate and up</text>
+  <text x="560.0" y="408" font-size="11.5" fill="#64748b">1024</text>
+  <text x="560.0" y="366" font-size="11.5" fill="#64748b">2 x 4608</text>
+  <path d="M 400 424 L 400 412" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="345.0" y="424" width="110" height="28" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="443.0" font-size="13" fill="#334155" text-anchor="middle">norm</text>
+  <path d="M 400 466 L 400 454" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="400" cy="478" r="11" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="400" y="483" font-size="15" fill="#475569" text-anchor="middle">+</text>
+  <path d="M 400 500 L 400 491" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="310" y="500" width="180" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="400" y="519" font-size="13.5" fill="#3730a3" text-anchor="middle">out projection</text>
+  <text x="500" y="519" font-size="11.5" fill="#64748b">1024</text>
+  <path d="M 280 548 L 280 540 L 520 540 L 520 548" fill="none" stroke="#475569" stroke-width="2"/>
+  <path d="M 400 540 L 400 530" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="180" y="548" width="200" height="54" rx="6" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="280" y="570" font-size="13" fill="#334155" text-anchor="middle">short conv, 3 taps</text>
+  <text x="280" y="588" font-size="11.5" fill="#64748b" text-anchor="middle" font-style="italic">in 10 of the 16 blocks</text>
+  <rect x="420" y="548" width="200" height="54" rx="6" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="520" y="570" font-size="13" fill="#334155" text-anchor="middle">attention over earlier tokens</text>
+  <text x="520" y="588" font-size="11.5" fill="#64748b" text-anchor="middle" font-style="italic">in 6 of the 16 blocks</text>
+  <path d="M 230.0 670 L 330.0 670 L 370.0 616 L 190.0 616 z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="280" y="648" font-size="13" fill="#3730a3" text-anchor="middle">in projection</text>
+  <text x="378.0" y="626" font-size="11.5" fill="#64748b">3072</text>
+  <text x="378.0" y="668" font-size="11.5" fill="#64748b">1024</text>
+  <path d="M 280 616 L 280 604" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 470.0 670 L 570.0 670 L 595.0 616 L 445.0 616 z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="520" y="648" font-size="13" fill="#3730a3" text-anchor="middle">q, k, v</text>
+  <text x="603.0" y="626" font-size="11.5" fill="#64748b">2048</text>
+  <text x="603.0" y="668" font-size="11.5" fill="#64748b">1024</text>
+  <path d="M 520 616 L 520 604" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 280 670 L 280 684 L 520 684 L 520 670" fill="none" stroke="#475569" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="400" y1="700" x2="400" y2="684" stroke="#475569" stroke-width="2"/>
+  <rect x="345.0" y="700" width="110" height="28" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="719.0" font-size="13" fill="#334155" text-anchor="middle">norm</text>
+  <path d="M 400 742 L 632 742 L 632 478 L 413 478" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 400 460 L 642 460 L 642 224 L 413 224" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="652" y="330" font-size="11.5" fill="#64748b" font-style="italic">residual:</text>
+  <text x="652" y="346" font-size="11.5" fill="#64748b" font-style="italic">the input is</text>
+  <text x="652" y="362" font-size="11.5" fill="#64748b" font-style="italic">added back</text>
+  <line x1="400" y1="754" x2="400" y2="742" stroke="#475569" stroke-width="2"/>
+  <path d="M 400 756 L 400 730" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="280" y="756" width="240" height="44" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+  <text x="400" y="774" font-size="13.5" fill="#334155" text-anchor="middle">embedding</text>
+  <text x="400" y="792" font-size="11.5" fill="#64748b" text-anchor="middle">65,536 x 1024, one row per vocabulary word</text>
+  <path d="M 400 826 L 400 802" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="842" font-size="12.5" fill="#64748b" text-anchor="middle">tokens</text>
+  <text x="790" y="232" font-size="12.5" fill="#64748b" text-anchor="middle">the 16 blocks, bottom to top</text>
+  <rect x="720" y="640" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="655" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="614" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="629" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="588" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="603" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="562" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="577" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="536" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="551" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="510" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="525" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="484" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="499" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="458" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="473" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="432" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="447" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="406" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="421" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="380" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="395" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="354" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="369" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="328" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="343" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="302" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="317" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <rect x="720" y="276" width="140" height="22" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.25"/>
+  <text x="790" y="291" font-size="11.5" fill="#3730a3" text-anchor="middle">attention</text>
+  <rect x="720" y="250" width="140" height="22" rx="5" fill="#f8fafc" stroke="#64748b" stroke-width="1.25"/>
+  <text x="790" y="265" font-size="11.5" fill="#334155" text-anchor="middle">conv</text>
+  <text x="790" y="690" font-size="11.5" fill="#64748b" text-anchor="middle" font-style="italic">each block: its mixer,</text>
+  <text x="790" y="706" font-size="11.5" fill="#64748b" text-anchor="middle" font-style="italic">then the feed-forward part</text>
+</svg>

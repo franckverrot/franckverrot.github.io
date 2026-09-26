@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="918" height="598" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="40" y="30" width="12" height="12" rx="3" fill="#c7d2fe"/>
+  <text x="58.0" y="40.0" font-size="12.5" fill="#475569">grouille, before</text>
+  <rect x="190.4" y="30" width="12" height="12" rx="3" fill="#818cf8"/>
+  <text x="208.4" y="40.0" font-size="12.5" fill="#475569">grids sized by the prompt</text>
+  <rect x="398.4" y="30" width="12" height="12" rx="3" fill="#4f46e5"/>
+  <text x="416.4" y="40.0" font-size="12.5" fill="#475569">tensor-op multiply</text>
+  <rect x="561.5999999999999" y="30" width="12" height="12" rx="3" fill="#0f766e"/>
+  <text x="579.6" y="40.0" font-size="12.5" fill="#475569">MLX Swift</text>
+  <text x="40.0" y="72.0" font-size="15" fill="#334155" font-weight="600">short prompts</text>
+  <line x1="150.0" y1="84" x2="150.0" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="150.0" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">0</text>
+  <line x1="260.8" y1="84" x2="260.8" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="260.8" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">10</text>
+  <line x1="371.7" y1="84" x2="371.7" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="371.7" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">20</text>
+  <line x1="482.5" y1="84" x2="482.5" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="482.5" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">30</text>
+  <line x1="593.3" y1="84" x2="593.3" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="593.3" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">40</text>
+  <line x1="704.2" y1="84" x2="704.2" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="704.2" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">50</text>
+  <line x1="815.0" y1="84" x2="815.0" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="815.0" y="398.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">60 ms</text>
+  <line x1="150" y1="84" x2="150" y2="380" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="40.0" y="131.0" font-size="14" fill="#334155" font-weight="600">17 tokens</text>
+  <path d="M150.0,84.0 h472.6 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-472.6 z" fill="#c7d2fe"/>
+  <path d="M626.6,84.0 h117.9 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-117.9 z" fill="#c7d2fe" fill-opacity="0.4"/>
+  <text x="756.5" y="97.0" font-size="12.5" fill="#334155">43 to 54</text>
+  <path d="M150.0,106.0 h247.6 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-247.6 z" fill="#818cf8"/>
+  <text x="409.6" y="119.0" font-size="12.5" fill="#334155">22.7</text>
+  <path d="M150.0,128.0 h101.3 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-101.3 z" fill="#4f46e5"/>
+  <text x="263.3" y="141.0" font-size="12.5" fill="#334155">9.5</text>
+  <path d="M150.0,150.0 h450.4 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-450.4 z" fill="#0f766e"/>
+  <text x="612.4" y="163.0" font-size="12.5" fill="#334155">41</text>
+  <text x="40.0" y="237.0" font-size="14" fill="#334155" font-weight="600">73 tokens</text>
+  <path d="M150.0,190.0 h605.6 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-605.6 z" fill="#c7d2fe"/>
+  <path d="M759.6,190.0 h51.4 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-51.4 z" fill="#c7d2fe" fill-opacity="0.4"/>
+  <text x="823.0" y="203.0" font-size="12.5" fill="#334155">55 to 60</text>
+  <path d="M150.0,212.0 h446.0 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-446.0 z" fill="#818cf8"/>
+  <path d="M600.0,212.0 h11.5 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-11.5 z" fill="#818cf8" fill-opacity="0.4"/>
+  <text x="623.5" y="225.0" font-size="12.5" fill="#334155">40.6 to 42</text>
+  <path d="M150.0,234.0 h173.3 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-173.3 z" fill="#4f46e5"/>
+  <path d="M327.3,234.0 h18.2 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-18.2 z" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="357.5" y="247.0" font-size="12.5" fill="#334155">16 to 18</text>
+  <path d="M150.0,256.0 h339.6 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-339.6 z" fill="#0f766e"/>
+  <text x="501.6" y="269.0" font-size="12.5" fill="#334155">31</text>
+  <text x="40.0" y="343.0" font-size="14" fill="#334155" font-weight="600">125 tokens</text>
+  <path d="M150.0,296.0 h561.2 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-561.2 z" fill="#c7d2fe"/>
+  <path d="M715.2,296.0 h51.4 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-51.4 z" fill="#c7d2fe" fill-opacity="0.4"/>
+  <text x="778.7" y="309.0" font-size="12.5" fill="#334155">51 to 56</text>
+  <path d="M150.0,318.0 h469.3 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-469.3 z" fill="#818cf8"/>
+  <path d="M623.3,318.0 h38.1 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-38.1 z" fill="#818cf8" fill-opacity="0.4"/>
+  <text x="673.4" y="331.0" font-size="12.5" fill="#334155">42.7 to 46.5</text>
+  <path d="M150.0,340.0 h194.4 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-194.4 z" fill="#4f46e5"/>
+  <path d="M348.4,340.0 h0.5 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-0.5 z" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="358.6" y="353.0" font-size="12.5" fill="#334155">17.9 to 18.1</text>
+  <path d="M150.0,362.0 h372.8 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-372.8 z" fill="#0f766e"/>
+  <text x="534.8" y="375.0" font-size="12.5" fill="#334155">34</text>
+  <text x="40.0" y="442.0" font-size="15" fill="#334155" font-weight="600">a long prompt</text>
+  <line x1="150.0" y1="454" x2="150.0" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="150.0" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">0</text>
+  <line x1="260.8" y1="454" x2="260.8" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="260.8" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">40</text>
+  <line x1="371.7" y1="454" x2="371.7" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="371.7" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">80</text>
+  <line x1="482.5" y1="454" x2="482.5" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="482.5" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">120</text>
+  <line x1="593.3" y1="454" x2="593.3" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="593.3" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">160</text>
+  <line x1="704.2" y1="454" x2="704.2" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="704.2" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">200</text>
+  <line x1="815.0" y1="454" x2="815.0" y2="538" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="815.0" y="556.0" font-size="11.5" fill="#94a3b8" text-anchor="middle">240 ms</text>
+  <line x1="150" y1="454" x2="150" y2="538" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="40.0" y="501.0" font-size="14" fill="#334155" font-weight="600">616 tokens</text>
+  <path d="M150.0,454.0 h608.4 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-608.4 z" fill="#c7d2fe"/>
+  <text x="770.4" y="467.0" font-size="12.5" fill="#334155">221</text>
+  <path d="M150.0,476.0 h594.5 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-594.5 z" fill="#818cf8"/>
+  <path d="M748.5,476.0 h4.3 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-4.3 z" fill="#818cf8" fill-opacity="0.4"/>
+  <text x="764.8" y="489.0" font-size="12.5" fill="#334155">216 to 219</text>
+  <path d="M150.0,498.0 h241.8 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-241.8 z" fill="#4f46e5"/>
+  <path d="M395.8,498.0 h0.5 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-0.5 z" fill="#4f46e5" fill-opacity="0.4"/>
+  <text x="404.3" y="511.0" font-size="12.5" fill="#334155">88.7 to 88.9</text>
+  <path d="M150.0,520.0 h605.6 a4,4 0 0 1 4,4 v10 a4,4 0 0 1 -4,4 h-605.6 z" fill="#0f766e"/>
+  <text x="767.6" y="533.0" font-size="12.5" fill="#334155">220</text>
+  <text x="460.0" y="570.0" font-size="13.5" fill="#64748b" text-anchor="middle">iPhone 17 Pro Max, engine-side prefill, 4-bit pack.  Lower is better.</text>
+</svg>

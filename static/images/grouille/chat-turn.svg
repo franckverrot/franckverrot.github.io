@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="918" height="318" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- row 1: the prompt as 17 tokens -->
+  <text x="40" y="60" font-size="15" font-weight="600" fill="#334155">prompt</text>
+  <text x="40" y="78" font-size="12.5" font-style="italic" fill="#64748b">17 tokens</text>
+  <rect x="150" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="194" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="238" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="282" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="326" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="370" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="390" y="66" font-size="9" fill="#3730a3" text-anchor="middle">Explain</text>
+  <rect x="414" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="434" y="66" font-size="10.5" fill="#3730a3" text-anchor="middle">tides</text>
+  <rect x="458" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="478" y="66" font-size="10.5" fill="#3730a3" text-anchor="middle">in</text>
+  <rect x="502" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="522" y="66" font-size="10.5" fill="#3730a3" text-anchor="middle">two</text>
+  <rect x="546" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="566" y="66" font-size="9" fill="#3730a3" text-anchor="middle">sentences</text>
+  <rect x="590" y="46" width="40" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="610" y="66" font-size="10.5" fill="#3730a3" text-anchor="middle">.</text>
+  <rect x="634" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="678" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="722" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="766" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="810" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="854" y="46" width="40" height="30" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="260" y="94" font-size="11.5" font-style="italic" fill="#94a3b8" text-anchor="middle">chat template</text>
+  <text x="762" y="94" font-size="11.5" font-style="italic" fill="#94a3b8" text-anchor="middle">chat template</text>
+
+  <!-- row 2: prefill -->
+  <text x="40" y="142" font-size="15" font-weight="600" fill="#334155">prefill</text>
+  <text x="40" y="160" font-size="12.5" font-style="italic" fill="#64748b">one pass</text>
+  <rect x="150" y="124" width="450" height="36" rx="6" fill="#4f46e5"/>
+  <text x="375" y="147" font-size="13" fill="#ffffff" text-anchor="middle">all 17 tokens through the 16 layers together</text>
+  <rect x="608" y="124" width="104" height="36" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="660" y="147" font-size="12.5" fill="#3730a3" text-anchor="middle">first token</text>
+  <path d="M 150 170 L 150 178 L 712 178 L 712 170" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <text x="431" y="194" font-size="12.5" font-weight="600" fill="#475569" text-anchor="middle">time to first token</text>
+  <text x="730" y="147" font-size="12" font-style="italic" fill="#92400e">compute-bound</text>
+
+  <!-- row 3: decode -->
+  <text x="40" y="238" font-size="15" font-weight="600" fill="#334155">decode</text>
+  <text x="40" y="256" font-size="12.5" font-style="italic" fill="#64748b">token by token</text>
+  <rect x="150" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="186" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">Tides</text>
+  <rect x="230" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="266" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">are</text>
+  <rect x="310" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="346" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">caused</text>
+  <rect x="390" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="426" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">by</text>
+  <rect x="470" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="506" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">the</text>
+  <rect x="550" y="220" width="72" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="586" y="242" font-size="12.5" fill="#3730a3" text-anchor="middle">...</text>
+  <text x="640" y="242" font-size="12" font-style="italic" fill="#92400e">memory-bound</text>
+  <text x="150" y="274" font-size="12" font-style="italic" fill="#64748b">every token needs to read all model weights once, about 4 ms per token on the phone</text>
+</svg>

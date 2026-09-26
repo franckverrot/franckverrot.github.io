@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 624" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="918" height="622" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="40" y="44" font-size="15" fill="#334155" font-weight="600">GPU</text>
+  <text x="40" y="62" font-size="12.5" fill="#64748b" font-style="italic">one token</text>
+  <rect x="40" y="174" width="76" height="60" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="78" y="200" font-size="13" fill="#3730a3" text-anchor="middle">embed</text>
+  <text x="78" y="218" font-size="11" fill="#64748b" text-anchor="middle">1 dispatch</text>
+  <path d="M 116 204 L 136 204" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="140" y="116" width="250" height="200" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="156" y="138" font-size="13.5" fill="#3730a3" font-weight="600">conv block, 10 of 16</text>
+  <text x="322" y="138" font-size="11.5" fill="#64748b">4 dispatches</text>
+  <rect x="156" y="152" width="218" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="166" y="172" font-size="12.5" fill="#334155" font-weight="600">in projection</text>
+  <text x="258" y="172" font-size="11.5" fill="#92400e" font-style="italic">+ gate, conv, gate</text>
+  <rect x="156" y="190" width="218" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="166" y="210" font-size="12.5" fill="#334155" font-weight="600">out projection</text>
+  <text x="258" y="210" font-size="11.5" fill="#92400e" font-style="italic">+ residual add</text>
+  <rect x="156" y="228" width="218" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="166" y="248" font-size="12.5" fill="#334155" font-weight="600">gate and up</text>
+  <text x="258" y="248" font-size="11.5" fill="#92400e" font-style="italic">+ silu(gate) x up</text>
+  <rect x="156" y="266" width="218" height="30" rx="5" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="166" y="286" font-size="12.5" fill="#334155" font-weight="600">down</text>
+  <text x="258" y="286" font-size="11.5" fill="#92400e" font-style="italic">+ residual add</text>
+  <path d="M 390 204 L 416 204" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="420" y="116" width="260" height="200" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="436" y="138" font-size="13.5" fill="#3730a3" font-weight="600">attention block, 6 of 16</text>
+  <text x="596" y="138" font-size="11.5" fill="#64748b">6 dispatches</text>
+  <rect x="436" y="152" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="167" font-size="11.5" fill="#334155" font-weight="600">q, k, v</text>
+  <text x="514" y="167" font-size="10" fill="#92400e" font-style="italic">+ qk-norm, rope, cache append</text>
+  <rect x="436" y="178" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="193" font-size="11.5" fill="#334155" font-weight="600">attention</text>
+  <text x="534" y="193" font-size="10.5" fill="#92400e" font-style="italic">flash decoding, live length</text>
+  <rect x="436" y="204" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="219" font-size="11.5" fill="#334155" font-weight="600">combine</text>
+  <text x="534" y="219" font-size="10.5" fill="#92400e" font-style="italic">the attention partials</text>
+  <rect x="436" y="230" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="245" font-size="11.5" fill="#334155" font-weight="600">out projection</text>
+  <text x="534" y="245" font-size="10.5" fill="#92400e" font-style="italic">+ residual add</text>
+  <rect x="436" y="256" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="271" font-size="11.5" fill="#334155" font-weight="600">gate and up</text>
+  <text x="534" y="271" font-size="10.5" fill="#92400e" font-style="italic">+ silu(gate) x up</text>
+  <rect x="436" y="282" width="228" height="22" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+  <text x="444" y="297" font-size="11.5" fill="#334155" font-weight="600">down</text>
+  <text x="534" y="297" font-size="10.5" fill="#92400e" font-style="italic">+ residual add</text>
+  <path d="M 680 204 L 700 204" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="704" y="174" width="76" height="60" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="742" y="200" font-size="13" fill="#3730a3" text-anchor="middle">logits</text>
+  <text x="742" y="218" font-size="10.5" fill="#64748b" text-anchor="middle">1, norm inline</text>
+  <path d="M 780 204 L 800 204" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="804" y="160" width="76" height="88" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="842" y="182" font-size="13" fill="#3730a3" text-anchor="middle">sampler</text>
+  <text x="842" y="198" font-size="10.5" fill="#64748b" text-anchor="middle">2 dispatches</text>
+  <text x="842" y="216" font-size="10.5" fill="#64748b" text-anchor="middle">penalty, top-k,</text>
+  <text x="842" y="230" font-size="10.5" fill="#64748b" text-anchor="middle">seeded draw</text>
+  <path d="M 842 160 L 842 104 L 78 104 L 78 172" fill="none" stroke="#4f46e5" stroke-width="1.75" marker-end="url(#arrow)"/>
+  <text x="460" y="98" font-size="11.5" fill="#3730a3" text-anchor="middle" font-style="italic">the sampled id is the next token's lookup, doesn't leave the GPU</text>
+  <rect x="156" y="330" width="10" height="10" rx="2" fill="#fffbeb" stroke="#b45309" stroke-width="1"/>
+  <text x="172" y="339" font-size="11.5" fill="#64748b" font-style="italic">work folded into the kernel that feeds it, instead of a dispatch of its own.  Norms are folded the same way:</text>
+  <text x="172" y="355" font-size="11.5" fill="#64748b" font-style="italic">a kernel that writes the residual also publishes partial sums of squares, and the next one applies the norm as it loads.</text>
+  <text x="40" y="386" font-size="13.5" fill="#334155" font-weight="600">1 + 10 x 4 + 6 x 6 + 1 + 2 = 80 dispatches per token</text>
+  <text x="40" y="440" font-size="15" fill="#334155" font-weight="600">CPU</text>
+  <text x="40" y="458" font-size="12.5" fill="#64748b" font-style="italic">never waits per token</text>
+  <rect x="180" y="416" width="320" height="52" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="196" y="438" font-size="13" fill="#334155" font-weight="600">encodes command buffers ahead</text>
+  <text x="196" y="456" font-size="12" fill="#64748b" font-style="italic">two tokens per buffer, four buffers deep</text>
+  <rect x="560" y="416" width="320" height="52" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="1.5"/>
+  <text x="576" y="438" font-size="13" fill="#334155" font-weight="600">reads finished tokens</text>
+  <text x="576" y="456" font-size="12" fill="#64748b" font-style="italic">from a ring buffer filled by the GPU</text>
+  <path d="M 340 416 L 340 390" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="350" y="409" font-size="11" fill="#64748b" font-style="italic">submits</text>
+  <path d="M 720 390 L 720 416" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="730" y="409" font-size="11" fill="#64748b" font-style="italic">token ids</text>
+  <line x1="40" y1="396" x2="880" y2="396" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="40" y="520" font-size="15" fill="#334155" font-weight="600">memory</text>
+  <text x="40" y="538" font-size="12.5" fill="#64748b" font-style="italic">allocated once</text>
+  <rect x="180" y="500" width="150" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="255.0" y="518" font-size="12.5" fill="#334155" font-weight="600" text-anchor="middle">weights</text>
+  <text x="255.0" y="534" font-size="11" fill="#64748b" text-anchor="middle" font-style="italic">mmap'd (zero copy)</text>
+  <rect x="350" y="500" width="150" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="425.0" y="518" font-size="12.5" fill="#334155" font-weight="600" text-anchor="middle">KV cache</text>
+  <text x="425.0" y="534" font-size="11" fill="#64748b" text-anchor="middle" font-style="italic">6 attention blocks only</text>
+  <rect x="520" y="500" width="150" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="595.0" y="518" font-size="12.5" fill="#334155" font-weight="600" text-anchor="middle">conv state</text>
+  <text x="595.0" y="534" font-size="11" fill="#64748b" text-anchor="middle" font-style="italic">20 KB in total</text>
+  <rect x="690" y="500" width="190" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="785.0" y="527" font-size="12.5" fill="#334155" font-weight="600" text-anchor="middle">scratch and the output ring</text>
+</svg>
